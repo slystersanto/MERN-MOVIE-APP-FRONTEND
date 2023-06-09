@@ -58,6 +58,7 @@ export function Login() {
                     value={values.email}
                     onChange={handleChange}
                     onBlur={handleBlur}
+                    placeholder="santhosh.mech.19@gmail.com"
                     error={touched.email && errors.email ? true : false}
                     helperText={touched.email && errors.email ? errors.email : null}
                 />
@@ -69,6 +70,7 @@ export function Login() {
                     value={values.password}
                     onChange={handleChange}
                     onBlur={handleBlur}
+                    placeholder="user@123"
                     error={touched.password && errors.password ? true : false}
                     helperText={
                         touched.password && errors.password ? errors.password : null
